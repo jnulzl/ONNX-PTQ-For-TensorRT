@@ -60,3 +60,10 @@ trtexec --onnx=xxx_quanted.onnx --saveEngine=xxx_quanted.trt --int8 --dumpProfil
 ```
 
 ref `quantize_static` int `site-packages/onnxruntime/quantization/quantize.py`
+
+
+### Ref
+
+[TensorRT-Onnx-Optimizer](https://github.com/NVIDIA/TensorRT-Model-Optimizer/blob/2017cd9/modelopt/onnx/quantization/int8.py#L225)
+
+[Quantization Tool](https://github.com/microsoft/onnxruntime/blob/main/onnxruntime/python/tools/quantization/README.md)
