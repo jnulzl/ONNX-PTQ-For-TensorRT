@@ -1,5 +1,8 @@
 phy_*onnx
+test*onnx
 *_int8.onnx
-__pycache__
 *npy
+.idea
+__pycache__
 quant_imgs
+
